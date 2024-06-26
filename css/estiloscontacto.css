@@ -1,0 +1,60 @@
+
+main p{
+    text-align: left;
+    margin-left: 50px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 35px;
+    color: #04146c;
+    
+}
+form p{
+    font-size: 26px;
+    color: #3957F1;
+}
+
+.img{
+    width: 100%;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+
+form{
+    background-color: azure;
+    width: 40%;
+    height: 350px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;  
+}
+
+label, input, textarea{
+    margin: 5px;
+}
+textarea{
+    display: block;
+    margin-left: 140px;
+    width: 300px;
+    height: 100px;
+}
+label{
+    margin-left: 50px;
+}
+
+.email{
+    margin-left: 68px;
+}
+
+.boton{
+    margin-left: 250px;
+}
+
+.boton, .borrar{
+    width: 90px;
+}

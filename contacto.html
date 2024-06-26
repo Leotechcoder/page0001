@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/estilosindex.css" />
+    <link rel="stylesheet" href="css/estiloscontacto.css" />
+  </head>
+  <body>
+    <div class="barra"></div>
+    <header>
+      <div id="logo"></div>
+      <nav>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="contacto.html">CONTACTO</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+        <p>¿Queres que nos contactemos con vos?</p>
+      <div class="img">
+        <form action="codigo.php">
+            <p>Dejanos tu consulta</p>
+          <label>Nombre Completo *
+            <input type="text" name="Nombre" required placeholder="Cristian Serdana"/>
+          </label>
+          <label class="email">Email *
+            <input type="email" name="email" required class="email">
+          </label>
+          <label>Consulta * 
+            <textarea name="comentario" required></textarea>
+          </label>
+          <div><input type="submit" value="Enviar" class="boton"><input type="reset" value="Borrar" class="borrar" ></div>
+          
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
