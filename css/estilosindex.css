@@ -16,6 +16,8 @@ header {
   width: 100%;
 }
 
+/*TRABAJO CON EL LOGO*/
+
 #logo,
 nav {
   margin: 20px;
@@ -30,6 +32,8 @@ nav {
   background-position: center;
   margin-left: 30px;
 }
+
+/*CENTRO LOS ELEMENTOS DEL HEADER*/
 
 header {
   gap: 10px;
@@ -48,11 +52,8 @@ a {
   font-size: 20px;
   color: #04146c;
 }
-a:hover:active {
-  color: beige;
-}
 
-/*tipografia*/
+/*TIPOGRAFIA*/
 
 h1 {
   font-family: "Roboto Slab", serif;
@@ -76,7 +77,7 @@ p {
   text-align: center;
 }
 
-/*imagen*/
+/*CENTRO LA IMAGEN*/
 
 .img {
   background-image: url("./../imagenes/M5-Desafío1-img.png");
@@ -88,3 +89,11 @@ p {
 h1,p, header{
     margin-bottom: 25px;
 }
+
+/*TRABAJO CON EL SELECTOR "a" */
+
+.active{ 
+  font-weight: 700;
+  padding: 2px 1px 0;
+}
+ 
